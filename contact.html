@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact | FoodBlog</title>
+        <meta name="description" content="Rainydays website" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet" />
+        <script
+          src="https://kit.fontawesome.com/65aaf5acf6.js"
+          crossorigin="anonymous"
+        ></script>
+        <!-- Hotjar Tracking Code for https://foodblog-kristoffer.netlify.app/index.html -->
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:2408040,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+    </head>
+    <body>
+        <header class="basic_header">
+            <a href="index.html"><img class="logo" src="images/foodblof_logo.png" alt="FoodBlog Logo"></a>
+            <nav class="head_links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a class="current" href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="background-contact">
+            <div class="contact_content">
+                <form id="contact_form">
+                    <h1>CONTACT US</h1>
+                    <div>
+                        <label>
+                            Name (minimum 5 characters)
+                            <input name="name" id="name" />
+                        </label>
+                        <div class="error-contactForm" id="nameError">Your name is missing</div>
+                    </div>
+        
+                    <div>
+                        <label>
+                            Email (required)
+                            <input name="email" id="email" />
+                        </label>
+                        <div class="error-contactForm" id="emailError">This is not a valid email</div>
+                    </div>
+
+                    <div>
+                        <label>
+                            Subject (minimum 15 characters)
+                            <input name="subject" id="subject" />
+                        </label>
+                        <div class="error-contactForm" id="subjectError">This field is required</div>
+                    </div>
+        
+                    <div>
+                        <label class="message">
+                            Massage (minimum 25 characters)
+                            <input name="message" id="message" />
+                        </label>
+                        <div class="error-contactForm" id="messageError">This section is required</div>
+                    </div>
+                    <button class="button">SEND</button>
+                </form>
+                <div class="contact_text">
+                    <img src="images/contact_info.jpg" alt="Picture of some food">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                    erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur
+                    sadipscing elitr. sed diam voluptua. Lorem ipsum dolor sit amet, consetetur
+                    sadipscing elitr.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <nav class="fot_links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="socials">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-snapchat-square"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+            <div class="copyright">
+               2021 &COPY; | Kristoffer Rottingen 
+            </div>
+        </footer>
+        <script src="js/contact.js"></script>
+    </body>
+</html>
